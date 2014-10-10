@@ -7,6 +7,10 @@ gem 'rails', '4.0.8'
 group :development, :test do
     gem 'sqlite3', '1.3.8'
       gem 'rspec-rails', '2.13.1'
+      gem 'guard-rspec', '2.5.0'
+      gem 'spork-rails', '4.0.0'
+      gem 'guard-spork', '1.5.0'
+      gem 'childprocess', '0.5.5'
 end
 
 group :test do
@@ -27,5 +31,5 @@ end
 
 group :production do
     gem 'pg', '0.15.1'
-      gem 'rails_12factor', '0.0.2'
+    gem 'rails_12factor', '0.0.2'
 end
